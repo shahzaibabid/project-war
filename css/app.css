@@ -6532,7 +6532,7 @@ header {
     background: #f59f7e; }
 
 section#contact {
-  background-image: url("https://www.google.com/maps/d/embed?mid=1wMZLD-KoIBt-zG0r8ziRkZeqgUA&hl=en");
+  
   background: transparent;
   background: rgba(0,0,0,0.8);
   -webkit-background-size: cover;
@@ -6573,9 +6573,11 @@ section#contact {
     font-family: 'Roboto', sans-serif; }
 
 footer {
-  background: rgba(100, 100, 100, 0.8);
+  background: transparent;
+  background: rgba(0,0,0,0.8);
+  color: white;
   padding: 25px 0;
-  margin-top: 200px;
+  margin-top: 0px;
   text-align: center; }
   footer span.copyright {
     font-size: 90%;
