@@ -6532,7 +6532,9 @@ header {
     background: #f59f7e; }
 
 section#contact {
-  background-image: url("");
+  background-image: url("https://www.google.com/maps/d/embed?mid=1wMZLD-KoIBt-zG0r8ziRkZeqgUA&hl=en");
+  background: transparent;
+  background: rgba(0,0,0,0.8);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6617,3 +6619,33 @@ ul.social-buttons {
   .btn-back-to-top:hover {
     background: #f59f7e;
     color: #fff; }
+    .map-responsive{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+    }
+
+    .map-responsive iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
