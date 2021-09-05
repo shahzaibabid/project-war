@@ -6341,7 +6341,7 @@ header {
   transition: all 0.3s ease-in-out 0s; }
   .team .our-team .pic:before {
     content: "";
-    background: #f59f7e;
+    background: gray;
     position: absolute;
     top: 10px;
     left: 10px;
