@@ -6269,7 +6269,7 @@ header {
         height: 100%;
         width: 100%; } }
   .services .service-cont .service-desc {
-    background: #f59f7e;
+    background: white;
     color: #495057;
     font-weight: 700;
     padding: 10px 0;
@@ -6314,26 +6314,6 @@ header {
         color: #6c757d;
         max-width: 400px; } }
 /* image isue */
-.perfect-style {
-  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  border-top: 5px solid #dee2e6;
-  border-bottom: 5px solid #dee2e6; }
-  .perfect-style .perfect-style-desc {
-    margin-top: 100px;
-    padding: 20px;
-    color: #fff;
-    border-radius: 5px;
-    background: #f59f7e;
-    border: 5px solid #adb5bd; }
-    .perfect-style .perfect-style-desc h3 {
-      font-family: 'Lobster', cursive;
-      letter-spacing: 2px; }
-
 .team .our-team {
   text-align: center;
   overflow: hidden;
