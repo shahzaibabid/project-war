@@ -4,6 +4,11 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ body{
+  background-image: url(https://img.freepik.com/free-photo/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.jpg?size=626&ext=jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+ }
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6253,7 +6258,7 @@ header {
 
 .services {
   padding: 100px 0;
-  background: #e9ecef; }
+  }
   .services .service-cont img {
     border: 1px solid #dee2e6;
     height: 250px;
@@ -6282,6 +6287,7 @@ header {
       margin-top: 50px; } }
 
 .about {
+  
   margin: 50px 0;
   padding: 50px 0; }
   .about h3 {
@@ -6307,9 +6313,9 @@ header {
         font-family: 'Roboto', sans-serif;
         color: #6c757d;
         max-width: 400px; } }
-
+/* image isue */
 .perfect-style {
-  background-image: url("../img/perfect-style.jpg");
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6466,8 +6472,7 @@ header {
   transform: scale(1.5);
   cursor: zoom-in; }
 
-.testimonials {
-  background: #e9ecef; }
+
   .testimonials .testimonial {
     border-left: 4px solid #f59f7e;
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.06);
@@ -6533,8 +6538,7 @@ header {
 
 section#contact {
   
-  background: transparent;
-  background: rgba(0,0,0,0.8);
+   
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6637,6 +6641,10 @@ ul.social-buttons {
 
     }
 
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
     
 
 
