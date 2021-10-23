@@ -6717,15 +6717,7 @@ font-weight: 600;
 margin-bottom: 40px;
 position: relative;
 }
-.footer-widget-heading h3::before {
-content: "";
-position: absolute;
-left: 0;
-bottom: -15px;
-height: 2px;
-width: 50px;
-background: #ff5e14;
-}
+
 .footer-widget ul li {
 display: inline-block;
 
