@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.0.0 (https://getbootstrap.com)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
  
 :root {
   --blue: #007bff;
@@ -2616,7 +2611,7 @@ tbody.collapse.show {
     .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
       border-color: #e9ecef #e9ecef #dee2e6; }
     .nav-tabs .nav-link.disabled {
-      color: #6c757d;
+      color: b;
       background-color: transparent;
       border-color: transparent; }
   .nav-tabs .nav-link.active,
@@ -6027,12 +6022,7 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 
-/*
-author: Boostraptheme
-author URL: https://boostraptheme.com
-License: Creative Commons Attribution 4.0 Unported
-License URL: https://creativecommons.org/licenses/by/4.0/
-*/
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif; }
@@ -6090,7 +6080,7 @@ img::-moz-selection {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url("../img/multicolor loader.gif") 50% 50% no-repeat #f9f9f9; background-size: cover;
+  background: url("../img/Vanilla-1s-280px.gif") 20% 20% no-repeat #f9f9f9; background-size: cover;
   opacity: 1; }
 
 .topmenu {
@@ -6224,19 +6214,19 @@ header {
   font-family: 'Roboto', sans-serif; }
 
 .btn-white {
-  border-color: #f59f7e;
-  background-color: #f59f7e;
+  border-color: #0c0a09;
+  background-color: black;
   color: #fff; }
   .btn-white:hover, .btn-white:focus {
     background-color: transparent;
-    color: #f59f7e;
+    color: #080707;
     cursor: pointer; }
 
 .btn-greenish {
-  border-color: #f59f7e;
-  color: #f59f7e; }
+  border-color: #0f0f0e;
+  color: white }
   .btn-greenish:hover, .btn-greenish:focus {
-    background-color: #f59f7e;
+    background-color: #3fc1c9;
     color: #fff;
     cursor: pointer; }
 
@@ -6450,9 +6440,9 @@ header {
 
 
   .testimonials .testimonial {
-    border-left: 4px solid #f59f7e;
+    border-left: 4px solid ;
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.06);
-    background: #fff;
+    background:  #3fc1c9;
     padding: 30px 30px 30px 130px;
     margin: 0 5px 30px 15px;
     overflow: hidden;
@@ -6462,7 +6452,7 @@ header {
       position: absolute;
       bottom: 0;
       right: 0;
-      border-top: 25px solid #f59f7e;
+      border-top: 25px solid #080707;
       border-left: 25px solid transparent;
       border-right: 25px solid transparent;
       transform: rotate(-45deg);
@@ -6480,22 +6470,26 @@ header {
         width: 100%;
         height: auto; }
     .testimonials .testimonial .description {
-      font-size: 15px;
-      font-style: italic;
-      color: #918686;
+      font-size: 17px;
+      font-family: Times;
+      font-weight: 900;
+      color: black;
       line-height: 25px;
       margin-bottom: 15px; }
     .testimonials .testimonial .title {
       display: inline-block;
       font-size: 20px;
       font-weight: 700;
-      color: #f59f7e;
+      color: black;
       font-family: 'Lobster', cursive;
       margin: 0; }
     .testimonials .testimonial .post {
       display: inline-block;
-      font-size: 17px;
-      color: #f59f7e; }
+      font-size: 20px;
+      font-weight: 700;
+      color: black;
+      font-family: 'Lobster', cursive;
+    }
     @media only screen and (max-width: 767px) {
       .testimonials .testimonial {
         padding: 20px;
