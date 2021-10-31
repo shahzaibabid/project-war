@@ -33,11 +33,10 @@
 
         <script src="js/jquery.min.js"></script>
         <script> 
-           $(window).on('load',function(){
-	setTimeout(function(){ // allowing 3 secs to fade out loader
-	$('.page-loader').fadeOut('slow');
-	},1500);
-});
+            $(window).on('load', function(){ $(".loader").fadeOut(400); }); 
+            $(function () {
+                new WOW().init();
+            });
         </script>
 
     </head>
@@ -53,9 +52,7 @@
 </style>
     <body>
 
-       <div class="page-loader">
-	<div class="spinner"></div>
-	</div>
+        <div class="loader"></div>
         <!-- NAVIGATION 
             =================-->
            
