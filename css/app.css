@@ -6050,7 +6050,7 @@ a {
   color: #f59f7e; }
 
 a:hover {
-  color: #f59f7e; }
+  color: #3fc1c9; }
 
 section {
   padding: 100px 0; }
@@ -6120,7 +6120,7 @@ img::-moz-selection {
     text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: #f59f7e;
+    background-color: #383230;
     font-family: 'Roboto', sans-serif; }
     @media (max-width: 991px) {
       .navbar .navbar-toggler {
@@ -6138,9 +6138,9 @@ img::-moz-selection {
         padding: 12px 10px 10px; } }
   .navbar .collapse ul.navbar-nav li.nav-item a:hover, .navbar .collapse ul.navbar-nav li.nav-item a.active {
     background: #e9ecef;
-    border-color: #f59f7e;
+    border-color: #3fc1c9;
     cursor: pointer;
-    color: #f59f7e; }
+    color: #3fc1c9; }
   @media (max-width: 1200px) {
     .navbar .navbar-brand {
       margin-left: 0%; } }
