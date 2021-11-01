@@ -6158,7 +6158,7 @@ section .heading h1 {
 section .heading .bord-bot {
   width: 80px;
   margin: 0 auto;
-  border-bottom: 4px solid #f59f7e; }
+  border-bottom: 4px solid #3fc1c9; }
 
 section .heading p {
   margin-top: 10px;
@@ -6627,6 +6627,7 @@ ul {
 background: #f8f9fa;
 position: relative;
 width: 100%;
+font-family:  Arial Black;
 }
 .footer-cta {
 border-bottom: 1px solid #373636;
