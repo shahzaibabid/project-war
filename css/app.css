@@ -2874,7 +2874,7 @@ tbody.collapse.show {
     bottom: 100%; }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9); }
+  color: #fff; }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
     color: rgba(0, 0, 0, 0.9); }
 
@@ -6646,13 +6646,13 @@ padding-left: 15px;
 display: inline-block;
 }
 .cta-text h4 {
-color: black;
+color: #3FC1C9;
 font-size: 20px;
 font-weight: 600;
 margin-bottom: 2px;
 }
 .cta-text span {
-color: black;
+color: #3FC1C9;
 font-size: 15px;
 }
 .footer-content {
@@ -6676,7 +6676,7 @@ margin-bottom: 30px;
 .footer-text p {
 margin-bottom: 14px;
 font-size: 14px;
-    color: black;
+    color: #fff;
 line-height: 28px;
 }
 .footer-social-icon span {
@@ -6701,7 +6701,7 @@ border-radius: 50%;
 }
 
 .footer-widget-heading h3 {
-color: black;
+color: #fff;
 font-size: 20px;
 font-weight: 600;
 margin-bottom: 40px;
@@ -6718,7 +6718,7 @@ margin-bottom: 12px;
 color: black;
 }
 .footer-widget ul li a {
-color: black;
+color: #3FC1C9;
 text-transform: capitalize;
 }
 .subscribe-form {
