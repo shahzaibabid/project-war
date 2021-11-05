@@ -2693,7 +2693,9 @@ tbody.collapse.show {
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  align-items: center; }
+  align-items: center;
+  text-align: center;
+  font-size: 12px; }
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
@@ -6129,7 +6131,7 @@ img::-moz-selection {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     padding: 22px 20px 20px;
-    border-bottom: 3px solid #f8f9fa; }
+ }
     @media (max-width: 1200px) {
       .navbar .collapse ul.navbar-nav li.nav-item a {
         padding: 22px 10px 20px; } }
@@ -6137,10 +6139,11 @@ img::-moz-selection {
       .navbar .collapse ul.navbar-nav li.nav-item a {
         padding: 12px 10px 10px; } }
   .navbar .collapse ul.navbar-nav li.nav-item a:hover, .navbar .collapse ul.navbar-nav li.nav-item a.active {
-    background: #e9ecef;
+
     border-color: #3fc1c9;
     cursor: pointer;
-    color: #3fc1c9; }
+    color: #3fc1c9; 
+    border-bottom: 2px solid #3fc1c9}
   @media (max-width: 1200px) {
     .navbar .navbar-brand {
       margin-left: 0%; } }
@@ -6191,8 +6194,8 @@ header {
         vertical-align: middle; }
         header .carousel-item .home-content-box .home-content-box-inner .home-heading h3 {
           color: #fff;
-          font-family: 'Lobster', cursive;
-          letter-spacing: 2px;
+          font-family: 'Dongle', sans-serif;
+          letter-spacing: 1px;
           font-size: 55px;
           margin: 20px 0 20px 0; }
 
