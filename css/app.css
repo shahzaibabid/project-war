@@ -114,7 +114,8 @@ dfn {
 
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder !important;
+ }
 
 small {
   font-size: 80%; }
@@ -2876,9 +2877,9 @@ tbody.collapse.show {
     bottom: 100%; }
 
 .navbar-light .navbar-brand {
-  color: #fff; }
+  color: #fff !important; }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-    color: #3FC1C9; }
+    color: #3FC1C9 !important; }
 
 .navbar-light .navbar-nav .nav-link {
   color: #fff; }
@@ -6158,6 +6159,7 @@ img::-moz-selection {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     padding: 22px 20px 20px;
+    color: #fff;
  }
     @media (max-width: 1200px) {
       .navbar .collapse ul.navbar-nav li.nav-item a {
