@@ -6278,6 +6278,10 @@ header {
 .service-head{
   background-color: #343a40;
 }
+.featurette-heading{
+  font-family: 'Lobster', cursive;
+}
+
 .services {
   padding: 10px 0;
   }
