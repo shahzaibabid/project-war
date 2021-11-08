@@ -6233,7 +6233,7 @@ header {
                   BUTTON (Generic)
 ======================================================*/
 .btn-general {
-  background-color: transparent;
+  background-color: #343a40;
   text-align: center;
   border-width: 1px;
   -webkit-border-radius: 50px;
