@@ -409,7 +409,7 @@
      color: #222;
 }
  .theme_color {
-     color: #f8c90d !important;
+     color: black !important;
 }
 .resip_section {
     
@@ -422,7 +422,7 @@
     font-size: 45px;
      font-weight: 500;
      line-height: 40px;
-     color: #fff;
+     color: black;
      padding-bottom: 38px;
 }
  .product_blog_cont {
@@ -430,13 +430,13 @@
      padding-top: 20px;
 }
  .product_blog_cont h3 {
-     color: #fff;
+     color: black;
      font-size: 22px;
      font-weight: 400;
      text-align: center;
 }
  .product_blog_cont h4 {
-     color: #fff;
+     color: black;
      font-size: 18px;
 }
  .bgbg {
@@ -529,7 +529,7 @@
 }
  .about .about_img {
      height: 90%;
-     background: #d8b00f;
+     background: #3fc1c9;
      margin-top: 90px;
 }
  .about .about_img figure {
