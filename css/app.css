@@ -8441,7 +8441,7 @@ header
 .btn-greenish:hover,
 .btn-greenish:focus {
   background-color: #3fc1c9;
-  color: #fff;
+  color: #000;
   cursor: pointer;
 }
 .submit-btn {
@@ -9019,7 +9019,7 @@ ul {
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover {
-  color: black;
+  color: #fff;
 }
 .footer-widget ul li a {
   color: #3fc1c9;
