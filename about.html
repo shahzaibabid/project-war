@@ -35,86 +35,196 @@
 
     </head>
 <style>
-  body{
-  background-color: whitesmoke;
- }
-</style>
-    <body>
-  <!-- loader -->
-  <div id="loader">
+
+ 
+  body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  </style>
+  </head>
+  <body>
+   <!-- loader -->
+   <div id="loader">
     <div id="status">&nbsp;</div>
   </div>
+
     <!-- NAVIGATION Start-->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="mainNav" data-toggle="affix">
         <div class="container-fluid">
-            <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="img/diamond.png"
-                    style="max-height: 70px;   font-family:fantasy" alt="" class="img-fluid"><b>Diamond-Saloon</b></a>
-            <button style="background-color:  #3fc1c9; "
-                class="navbar-toggler navbar-toggler-center  ml-auto py-3 my-2 " type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
-                Menu
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="service.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="about.html">About</a>
-                    </li>
+          <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="img/diamond.png"
+              style="max-height: 70px;   margin-left: -20px; font-family:fantasy" alt="" class="img-fluid"><b>Diamond-Saloon</b></a>
+          <button style="background-color:  #3fc1c9; " class="navbar-toggler navbar-toggler-center  ml-auto py-3 my-2 "
+            type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="about.html">About</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="testmonials.html">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="appointment.html">Appointment</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    
 
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="testmonials.html">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="appointment.html">Appointment</a>
-                    </li>
-                </ul>
+  <div class="about-section">
+    <section id="contact" class="contact pb-0" style="margin-top: -100px;">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-12 text-center">
+                    <div class="heading">
+                        <h1>About Us</h1>
+                        <div class="bord-bot"></div>
+                        
+                    </div>
+                </div>
+            </div>
+            </section>
+    <p>Some text about who we are and what we do.</p>
+    <p>Resize the browser window to see that this page is responsive by the way.</p>
+  </div>
+  
+  <section id="contact" class="contact pb-0" style="margin-top: -30px;">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-12 text-center">
+                <div class="heading">
+                    <h1>Our Team</h1>
+                    <div class="bord-bot"></div>
+                    
+                </div>
             </div>
         </div>
-    </nav>
-                        
-      <!-- ABOUT 
-            =================-->
-            <section id="about" class="about">
-              <div class="container">
-                  <div class="row mb-5">
-                      <div class="col-md-12 text-center ">
-                          <div class="heading wow fadeInUp" data-wow-delay="0.3s">
-                              <h1>About Us</h1>
-                              <div class="bord-bot"></div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-md-4 my-auto">
-                          <div class="body-cont mb-5 wow fadeInUp" data-wow-delay="0.6s">
-                              <h3>"The salon that leaves a smile on your face"</h3>
-                              <div class="bord-bottom"></div>
-                              <p>A sweet escape… Even sweeter prices! The place that leaves you feeling great The place that beautifies your face Where we love to exceed your expectations.Indulge yourself.Submerge yourself.You deserve nothing but the best.Be your best.Look your best.As individual as you are. </p>
-                              <a href="contact.html" class="img-fluid js-scroll-trigger"><button class="btn btn-general btn-white"  style="margin-left: 50px;">Contact-Us</button></a>
-                          </div>
-                      </div>
-                      <div class="col-md-8 m-auto text-center">
-                          <div class="body-img-1 wow fadeInUp" data-wow-delay="0.9s">
-                              <img src="img/about-us.png" alt="" class="img-fluid">
-                          </div>
-                      </div>
-                      
-
-                      
-                  </div> 
-              </div>
-            </section>
+        </section>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>Jane Doe</h2>
+          <p class="title">CEO & Founder</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>jane@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+        <div class="container">
+          <h2>Mike Ross</h2>
+          <p class="title">Art Director</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>mike@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>John Doe</h2>
+          <p class="title">Designer</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>john@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
             <hr class="solid">
             <!-- our team -->
             <!-- <section id="team" class="team pb-5" style="margin-top: -120px;">
