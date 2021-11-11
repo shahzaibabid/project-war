@@ -8932,7 +8932,7 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #f8f9fa;
+  background: #bfa65e;
   position: relative;
   width: 100%;
   font-family: Arial Black;
@@ -8951,13 +8951,13 @@ ul {
   display: inline-block;
 }
 .cta-text h4 {
-  color: #3fc1c9;
+  color: #bfa65e;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
 }
 .cta-text span {
-  color: #3fc1c9;
+  color: white;
   font-size: 15px;
 }
 .footer-content {
@@ -9006,7 +9006,7 @@ ul {
 }
 
 .footer-widget-heading h3 {
-  color: #fff;
+  color: #bfa65e;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 40px;
@@ -9015,15 +9015,14 @@ ul {
 
 .footer-widget ul li {
   display: inline-block;
-
   width: 50%;
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover {
-  color: #fff;
+  color: #bfa65e;
 }
 .footer-widget ul li a {
-  color: #3fc1c9;
+  color: white;
   text-transform: capitalize;
 }
 .subscribe-form {
@@ -9051,7 +9050,7 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area {
-  background: #3fc1c9;
+  background: #bfa65e;
   padding: 25px 0;
 }
 .copyright-text p {
