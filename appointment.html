@@ -112,10 +112,10 @@
         <div class="container">
 
 
-            <form class="main-form" >
+            <form class="main-form" id="appointment" >
                 <div class="row mt-5 ">
                     <div class="col-12 col-sm-6 py-2 wow fadeInLeft">
-                        <input type="text" class="form-control" placeholder="Full name">
+                        <input type="text" class="form-control" placeholder="Full name" required>
                     </div>
                     <div class="col-12 col-sm-6 py-2 wow fadeInRight">
                         <input type="text" class="form-control" placeholder="Email address..">
@@ -144,8 +144,7 @@
                     </div>
                 </div>
 
-                <a class="btn btn-sm btn-general" href="submit.html" Class="submit-btn"> Submit Request </a>                
-               
+                <input type="submit" class="btn btn-sm btn-general submit-btn"  value="Submit Request">
 
 
                 <br>
@@ -271,6 +270,13 @@
             $('#status').fadeOut(2550);
             $('#loader').fadeOut(2750);
         });
+
+        
+  $("#appointment").submit(function(event){
+      event.preventDefault();
+    window.location.assign('submit.html');
+
+  });   
     </script>
 </body>
 
